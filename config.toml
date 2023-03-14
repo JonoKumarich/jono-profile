@@ -1,0 +1,57 @@
+baseurl = "http://www.example.com"
+title = "Jono Kumarich"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+# paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jono Kumarich"
+  info = "Data Science, Software Development, and Machine Learning Expertise"
+  description = "Jono Kumarich Personal Website"
+  keywords = "portfolio"
+  avatarurl = "images/portrait.jpg"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 3
+  url = "https://github.com/JonoKumarich/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/jonathan-kumarich-88599714a/"
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 2
+  url = "mailto:jonathankumarich@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "Work History"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url = "about/"
