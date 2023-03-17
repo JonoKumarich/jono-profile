@@ -8,18 +8,18 @@ last_name: Kumarich
 
 # Status emoji
 status:
-  icon: ☕️
+  # icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Data Scientist
+role: Data Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Woolworths New Zealand
-    url: https://www.countdown.co.nz/info/about-us/about-woolworths-nz
+  - name: Open to work
+    url: /
 
 # Short bio (displayed in user profile at end of posts)
 bio: TODO
